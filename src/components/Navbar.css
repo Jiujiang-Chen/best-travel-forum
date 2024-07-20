@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.navbar-logo img {
+  height: 30px;
+}
+
+.navbar-search input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  margin: 0 1rem;
+  color: #1da1f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-profile img {
+  height: 30px;
+  border-radius: 50%;
+}
+
+.navbar-username {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
